@@ -6,9 +6,9 @@ int main() {
 	std::cout << "Enter a number: ";
 	std::cin >> number;
 
-	int cube = number * number * number;
+	int square = number * number;
 
-	std::cout << "The cube of " << number << " is: " << cube << std::endl;
+	std::cout << "The square of " << number << " is: " << square << std::endl;
 
 	return 0;
 }
